@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Upload, FileText, CheckCircle, XCircle, AlertTriangle, DollarSign, Calendar, BarChart3, Users, CreditCard, Search, RefreshCw, TrendingUp, Activity, Clock } from 'lucide-react';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default function PaymentDashboard() {
   const [file, setFile] = useState(null);
